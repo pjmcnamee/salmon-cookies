@@ -4,7 +4,29 @@
 
     </head>
     <body>
-        <h1>Table</h1>
+        <h1>Forum</h1>
+            <form id="new-store-form">
+                <fieldset>
+                    <legend>New Store Form</legend>
+
+                    <label for="location">Location:</label>
+                    <input name="location" type="text" size="15" />
+
+                    <label for="max">Maxiumum # of Customers Per Hour</label>
+                    <input name="max" type="text" size="15" />
+
+                    <label for="min">Minimum # of Customers Per Hour</label>
+                    <input name="min" type="text" size="15" />
+
+                    <label for="average">Average Cookies per Customers</label>
+                    <input name="average" type="text" size="15" />
+
+                    <button type="submit">Create New Store Location </button>
+
+                </fieldset>
+            </form>
+
+        <h2>Table</h2>
         <table id="stores"></table>
         
         <script src="app.js"></script>
