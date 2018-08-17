@@ -1,0 +1,36 @@
+html {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+header {
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    font: bold;
+    background-image: url("img/salmon.png");
+}
+
+.column {
+    float: left;
+    
+}
+
+.middle-img {
+    width: 50%;
+    float: left;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle  {
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
